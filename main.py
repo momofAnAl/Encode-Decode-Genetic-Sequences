@@ -14,3 +14,8 @@ if __name__ == "__main__":
     else: 
         from sequence_tests import tests
         tests()
+        
+        
+"""
+Main.py calls test()> test() calls part_one_tests() > part_one_tests calls dna_test() > dna_tests() calls encode_strand()
+"""
